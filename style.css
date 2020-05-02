@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    width: 1080;
+    height: 711;
+    background-image: url("2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    font-family: 'PT Sans',sans-serif;
+    color: crimson;
+}
+
+h2{
+    text-align: center;
+    color: navy;
+}
+
+div{
+    text-align: center;
+}
+
+form{
+    text-align: center;
+    color: darkblue;
+    display: block;
+}
+
+.mydiv{
+    text-align: center;
+    font-family: monospace;
+    width: 100%;
+    height: 100%;
+    animation: myanimation 10s infinite;
+}
+
+input[type="text"]{
+    color: darkblue;
+    width: 20%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 0px;   
+    background-color:whitesmoke;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button{
+    text-align:center;
+    background-image: url("color.jpg");
+    font-size: medium;
+    size: 50px;
+    color: darkblue;
+    width: 30%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
+    resize: vertical;
+    margin-top: 10%;
+    background-color:whitesmoke;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer{
+    text-align: right;
+    color: cyan;
+}
+
+@keyframes myanimation {
+    0% {background-color: skyblue;}
+    25%{background-color:navy;}
+    50%{background-color:palevioletred;}
+    75%{background-color:powderblue;}
+    100% {background-color: turquoise;}
+  }
