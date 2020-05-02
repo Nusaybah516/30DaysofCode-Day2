@@ -1,1 +1,1 @@
-# 30DaysofCode-Day2
+https://nusaybah516.github.io/30DaysofCode-Day2/
